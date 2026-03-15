@@ -1,0 +1,137 @@
+{
+  "startTime": "2026-01-22T14:18:42.416Z",
+  "actions": [],
+  "errors": [],
+  "warnings": [],
+  "networkIssues": [],
+  "performanceMetrics": [
+    {
+      "timestamp": "2026-01-22T14:19:13.150Z",
+      "metrics": {
+        "timestamp": 168197.495212,
+        "documents": 4,
+        "frames": 4,
+        "jSEventListeners": 136,
+        "nodes": 1708,
+        "jsHeapUsedSize": 1032252,
+        "jsHeapTotalSize": 3145728
+      }
+    },
+    {
+      "timestamp": "2026-01-22T14:19:43.164Z",
+      "metrics": {
+        "timestamp": 168227.508886,
+        "documents": 4,
+        "frames": 4,
+        "jSEventListeners": 136,
+        "nodes": 1708,
+        "jsHeapUsedSize": 1026780,
+        "jsHeapTotalSize": 1572864
+      }
+    },
+    {
+      "timestamp": "2026-01-22T14:20:13.167Z",
+      "metrics": {
+        "timestamp": 168257.512675,
+        "documents": 4,
+        "frames": 4,
+        "jSEventListeners": 136,
+        "nodes": 1708,
+        "jsHeapUsedSize": 1026780,
+        "jsHeapTotalSize": 1572864
+      }
+    },
+    {
+      "timestamp": "2026-01-22T14:20:43.173Z",
+      "metrics": {
+        "timestamp": 168287.518339,
+        "documents": 4,
+        "frames": 4,
+        "jSEventListeners": 136,
+        "nodes": 1708,
+        "jsHeapUsedSize": 1026780,
+        "jsHeapTotalSize": 1572864
+      }
+    },
+    {
+      "timestamp": "2026-01-22T14:21:13.173Z",
+      "metrics": {
+        "timestamp": 168317.518403,
+        "documents": 9,
+        "frames": 6,
+        "jSEventListeners": 493,
+        "nodes": 5762,
+        "jsHeapUsedSize": 1747048,
+        "jsHeapTotalSize": 4194304
+      }
+    },
+    {
+      "timestamp": "2026-01-22T14:21:43.174Z",
+      "metrics": {
+        "timestamp": 168347.518714,
+        "documents": 4,
+        "frames": 4,
+        "jSEventListeners": 173,
+        "nodes": 2064,
+        "jsHeapUsedSize": 1040984,
+        "jsHeapTotalSize": 2359296
+      }
+    },
+    {
+      "timestamp": "2026-01-22T14:22:13.184Z",
+      "metrics": {
+        "timestamp": 168377.529389,
+        "documents": 4,
+        "frames": 4,
+        "jSEventListeners": 173,
+        "nodes": 2064,
+        "jsHeapUsedSize": 1040984,
+        "jsHeapTotalSize": 2359296
+      }
+    },
+    {
+      "timestamp": "2026-01-22T14:22:43.186Z",
+      "metrics": {
+        "timestamp": 168407.531602,
+        "documents": 9,
+        "frames": 6,
+        "jSEventListeners": 440,
+        "nodes": 5398,
+        "jsHeapUsedSize": 1737160,
+        "jsHeapTotalSize": 3145728
+      }
+    },
+    {
+      "timestamp": "2026-01-22T14:23:13.196Z",
+      "metrics": {
+        "timestamp": 168437.541813,
+        "documents": 4,
+        "frames": 4,
+        "jSEventListeners": 136,
+        "nodes": 1708,
+        "jsHeapUsedSize": 1029812,
+        "jsHeapTotalSize": 1572864
+      }
+    },
+    {
+      "timestamp": "2026-01-22T14:23:43.200Z",
+      "metrics": {
+        "timestamp": 168467.545229,
+        "documents": 4,
+        "frames": 4,
+        "jSEventListeners": 136,
+        "nodes": 1708,
+        "jsHeapUsedSize": 1029812,
+        "jsHeapTotalSize": 1572864
+      }
+    }
+  ],
+  "endTime": "2026-01-22T15:56:45.227Z",
+  "summary": {
+    "totalActions": 0,
+    "totalErrors": 0,
+    "totalWarnings": 0,
+    "totalNetworkIssues": 0,
+    "performanceSnapshots": 10
+  }
+}
