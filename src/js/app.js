@@ -1994,8 +1994,17 @@ function checkAlbumResources(artistName, album) {
 
             // 3. 构造远程 URL
             if (songPath) {
-                const encodedPath = songPath.split(/[\\/]/).map(segment => encodeURIComponent(segment)).join('/');
-                audioUrl = `${API_BASE}/storage/music/${encodedPath}`;
+                if (songPath.startsWith('http://') || songPath.startsWith('https://')) {
+                    audioUrl = songPath;
+                } else {
+                    let clean = songPath.replace(/^\/+/, '');
+                    if (clean.startsWith('storage/')) clean = clean.slice(8);
+                    if (!clean.startsWith('music/') && !clean.startsWith('covers/') && !clean.startsWith('lyrics/')) {
+                        clean = 'music/' + clean;
+                    }
+                    const encodedPath = clean.split(/[\\/]/).map(segment => encodeURIComponent(segment)).join('/');
+                    audioUrl = `${API_BASE}/storage/${encodedPath}`;
+                }
             }
 
             // 发起检查
